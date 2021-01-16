@@ -1,27 +1,98 @@
+img {
+    width: 20%;
+}
+
+body {
+    text-align: center;
+   
+}
+
+img {
+    border-radius: 100px;
+}
+
 .line {
-    width:6px;
-    background-color: #000;
+    height: 6px;
+    background: black;
     width: 70px;
     margin: 8px auto;
 }
 
-body{
-    text-align: center;
+
+.menu{
+    font-family:fantasy;
+    position: absolute;
+    top:10px;
+    right:30px;
+    list-style:disc;
+    z-index: 10;
+    font-size:50%;
 }
 
-img{
-    width:30%;
-    background-color: red;
-    margin: 7px;
-    padding: 5px;
-    border-style: inset;
+.link{
+    color:red;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    font-size:20px;
+    font-family: sans-serif;
+    float: right;
+    font-weight:bold;
+}
+
+#welcome{
+    background-color:aqua;
+    height: 500px;
 }
 
 h1{
-    font-weight: bolder;
-    font-family: fantasy;
-    color: red;
+    font-size:40px;
+    color:red;
+    font-family: 'Fraunces', serif;
+    
 }
-p{
-    font-size:20px;
+
+#info{
+    background-color:fuchsia;
+    height:250px;
+}
+
+#video{
+    background-color: peachpuff;
+    height: 800px;
+}
+
+#picture{
+    background-color:yellow;
+    height: 800px;
+}
+
+
+.cycling{
+    width:340px;
+}
+
+
+
+#inspiration{
+    background-color:cornflowerblue;
+    height: 800px;
+}
+
+#in{
+    width:1000px;
+}
+
+#contact{
+  background-color:green;
+    height: 800px;
+}
+#con{
+    width:100px;
+    
+}
+.fa fa-envelope{
+    font-size:500%;
+    width:500px;
 }
