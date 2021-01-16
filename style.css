@@ -1,0 +1,27 @@
+.line {
+    width:6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+body{
+    text-align: center;
+}
+
+img{
+    width:30%;
+    background-color: red;
+    margin: 7px;
+    padding: 5px;
+    border-style: inset;
+}
+
+h1{
+    font-weight: bolder;
+    font-family: fantasy;
+    color: red;
+}
+p{
+    font-size:20px;
+}
